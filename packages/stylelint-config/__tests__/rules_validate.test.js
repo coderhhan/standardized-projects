@@ -46,4 +46,27 @@ describe('test rules', () => {
       assert.ok(flag);
     }
   })
+
+  //错误的维度
+  it('error type', async () => {
+    const filePathS = [path.join(__dirname, './feature/essential.css')] //读取css文件
+
+    const result = await stylelint.lint({
+      configFile: path.join(__dirname, '../index.js'), //读取配置文件
+      files: filePathS, //文件路径
+      fix: false//自动修复
+    })
+    console.log(result.errored);
+
+    if (result) {
+      const validateResult = JSON.parse(result.output || '[]') || []
+
+      const flag = validateResult.every(item => {
+        console.log(`========= ${filePathS} ==========`);
+        console.log(item.warnings);
+        return item.warnings.length === 0
+      });
+      assert.ok(flag);
+    }
+  })
 })
