@@ -15,8 +15,5 @@
   ],
   "publishConfig": {
     "registry": "https://registry.npmmirror.com/"
-  },
-  "scripts": {
-    "test": "node ./__tests__/commitlint-config.test.js"
   }
 }

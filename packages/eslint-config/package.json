@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config",
+  "name": "eslint-config-hh",
   "version": "1.0.0",
   "description": "> TODO: description",
   "author": "huanghan <906271803@qq.com>",
@@ -16,7 +16,5 @@
   "publishConfig": {
     "registry": "https://registry.npmmirror.com/"
   },
-  "scripts": {
-    "test": "node ./__tests__/eslint-config.test.js"
-  }
+  "scripts": {}
 }

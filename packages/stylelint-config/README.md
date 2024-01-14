@@ -1,11 +1,21 @@
 # `stylelint-config`
 
-> TODO: description
+支持配套的 [stylelint 可共享配置](https://stylelint.io/user-guide/configure)。
 
-## Usage
+## 安装
 
-```javascript
-const stylelintConfig = require("stylelint-config");
+需要先行安装 [stylelint](https://www.npmjs.com/package/stylelint) 和 [stylelint-scss](https://www.npmjs.com/package/stylelint-scss)：
 
-// TODO: DEMONSTRATE API
+```bash
+npm install stylelint-config-hh stylelint stylelint-scss --save-dev
+```
+
+## 使用
+
+在 `.stylelintrc` 中继承本包:
+
+```json
+{
+  "extends": "stylelint-config-hh"
+}
 ```

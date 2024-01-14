@@ -1,13 +1,12 @@
 {
-  "name": "stylelint-config",
+  "name": "stylelint-config-hh",
   "version": "1.0.0",
   "description": "> TODO: description",
   "author": "huanghan <906271803@qq.com>",
   "homepage": "",
   "license": "ISC",
-  "main": "lib/stylelint-config.js",
+  "main": "index.js",
   "directories": {
-    "lib": "lib",
     "test": "__tests__"
   },
   "files": [
@@ -17,6 +16,15 @@
     "registry": "https://registry.npmmirror.com/"
   },
   "scripts": {
-    "test": "node ./__tests__/stylelint-config.test.js"
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "29.5.0",
+    "stylelint": "14.3.0",
+    "stylelint-scss": "4.1.0"
+  },
+  "dependencies": {
+    "postcss-less": "^6.0.0",
+    "postcss-scss": "^4.0.9"
   }
 }
