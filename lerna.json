@@ -1,6 +1,6 @@
 {
   "useWorkspaces": true,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "npmClient": "pnpm",
   "command": {
     "publish": {
@@ -8,6 +8,8 @@
       "message": "chore(release):publish %s",
       "registry": "https://registry.npmjs.org"
     },
-    "packages": ["packages/*"]
+    "packages": [
+      "packages/*"
+    ]
   }
 }
