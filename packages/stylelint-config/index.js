@@ -10,11 +10,11 @@ module.exports = {
   defaultSeverity: 'warning',
   overrides: [
     {
-      files: ["**/*.less"],//针对less解析
+      files: ["**/*.less"],//针对less
       customSyntax: "postcss-less"
     },
     {
-      files: ["**/*.scss"],//针对scss解析
+      files: ["**/*.scss"],//针对scss
       customSyntax: "postcss-scss"
     },
   ],

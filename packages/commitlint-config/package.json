@@ -15,5 +15,8 @@
   ],
   "publishConfig": {
     "registry": "https://registry.npmmirror.com/"
+  },
+  "dependencies": {
+    "conventional-changelog-conventionalcommits": "4.5.0"
   }
 }
