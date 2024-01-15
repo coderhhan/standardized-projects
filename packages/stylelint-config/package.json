@@ -26,5 +26,6 @@
   "dependencies": {
     "postcss-less": "^6.0.0",
     "postcss-scss": "^4.0.9"
-  }
+  },
+  "gitHead": "377b7b76a31bed2e151e67da0f432dd13ab2d83a"
 }
