@@ -16,5 +16,6 @@
   "publishConfig": {
     "registry": "https://registry.npmmirror.com/"
   },
-  "scripts": {}
+  "scripts": {},
+  "gitHead": "8d1ac25ce8d29f513fbddf6e02e31cf661edcb72"
 }

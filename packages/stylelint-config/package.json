@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-hh",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "> TODO: description",
   "author": "huanghan <906271803@qq.com>",
   "homepage": "",
@@ -27,5 +27,5 @@
     "postcss-less": "^6.0.0",
     "postcss-scss": "^4.0.9"
   },
-  "gitHead": "377b7b76a31bed2e151e67da0f432dd13ab2d83a"
+  "gitHead": "8d1ac25ce8d29f513fbddf6e02e31cf661edcb72"
 }
