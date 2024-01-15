@@ -13,9 +13,6 @@
   "files": [
     "lib"
   ],
-  "publishConfig": {
-    "registry": "https://registry.npmmirror.com/"
-  },
   "scripts": {},
-  "gitHead": "8d1ac25ce8d29f513fbddf6e02e31cf661edcb72"
+  "gitHead": "e92f090fe522a7cc30c4bbc55547ec81ecb5f105"
 }
