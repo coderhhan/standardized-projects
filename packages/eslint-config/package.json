@@ -1,13 +1,13 @@
 {
   "name": "eslint-config-hh",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "> TODO: description",
   "author": "huanghan <906271803@qq.com>",
   "homepage": "",
   "license": "ISC",
   "main": "lib/eslint-config.js",
   "directories": {
-    "lib": "lib",  
+    "lib": "lib",
     "test": "__tests__"
   },
   "files": [
