@@ -1,3 +1,11 @@
+/*
+ * @Author: coderhhan 906271803@qq.com
+ * @Date: 2024-01-15 10:50:15
+ * @LastEditors: coderhhan 906271803@qq.com
+ * @LastEditTime: 2024-01-16 22:38:12
+ * @FilePath: \standardized-projects\packages\stylelint-config\__tests__\rules_validate.test.js
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+ */
 const path = require('path')
 const assert = require('assert')
 const stylelint = require('stylelint')
@@ -35,7 +43,7 @@ describe('test rules', () => {
     })
 
 
-    if (result && !result.errored) {
+    if (result) {
       const validateResult = JSON.parse(result.output || '[]') || []
 
       const flag = validateResult.every(item => {

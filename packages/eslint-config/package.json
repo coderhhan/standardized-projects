@@ -1,15 +1,21 @@
 {
   "name": "eslint-config-hh",
   "version": "1.0.5",
-  "description": "> TODO: description",
+  "description": " JavaScript TypeScript Node 规范",
   "author": "huanghan <906271803@qq.com>",
   "homepage": "",
   "license": "ISC",
-  "main": "lib/eslint-config.js",
+  "main": "index.js",
   "directories": {
-    "lib": "lib",
-    "test": "__tests__"
+    "lib": "lib"
   },
+  "keywords": [
+    "standard",
+    "javaScript",
+    "typescript",
+    "node",
+    "lint"
+  ],
   "files": [
     "lib"
   ],
@@ -33,6 +39,10 @@
     "typescript": "^4.1.2",
     "vue-eslint-parser": "^7.3.0"
   },
-  "scripts": {},
+  "scripts": {
+    "lint": "eslint ./",
+    "test": "mocha ./__tests__/validate-js-configs.test.js --timeout 5000",
+    "print-config": "eslint --print-config ./index.js > ./print-config.json"
+  },
   "gitHead": "28b6ec5fec5b6e1ceef89445bd722f3668b6b91b"
 }
