@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-hh",
   "version": "1.0.9",
-  "description": " JavaScript TypeScript Node 规范",
+  "description": " JavaScript TypeScript Node 规范（eslint）",
   "author": "huanghan <906271803@qq.com>",
   "homepage": "",
   "license": "ISC",
@@ -44,5 +44,5 @@
     "test": "mocha ./__tests__/validate-js-configs.test.js --timeout 5000",
     "print-config": "eslint --print-config ./index.js > ./print-config.json"
   },
-  "gitHead": "65b1c2791d08f01c8013759cd95d29f9c9f9ae44"
+  "gitHead": "a71ad15d78e86238b717030dd391c16f73d908bf"
 }
