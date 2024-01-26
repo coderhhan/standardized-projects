@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-hh",
+  "name": "eslint-config-hhan",
   "version": "1.1.5",
   "description": " JavaScript TypeScript Node 规范1",
   "author": "huanghan <906271803@qq.com>",
@@ -44,5 +44,5 @@
     "test": "mocha ./__tests__/validate-js-configs.test.js --timeout 5000",
     "print-config": "eslint --print-config ./index.js > ./print-config.json"
   },
-  "gitHead": "ce68ec51c80041a2076673a2a2e765fe44694486"
+  "gitHead": "30541d7ee37e1ea054a4e5d92a5454cd8d5d369d"
 }
