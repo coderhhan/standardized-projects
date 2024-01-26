@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-hh",
   "version": "1.1.0",
-  "description": " JavaScript TypeScript Node 规范（eslint）",
+  "description": " JavaScript TypeScript Node 规范",
   "author": "huanghan <906271803@qq.com>",
   "homepage": "",
   "license": "ISC",
