@@ -44,5 +44,5 @@
     "test": "mocha ./__tests__/validate-js-configs.test.js --timeout 5000",
     "print-config": "eslint --print-config ./index.js > ./print-config.json"
   },
-  "gitHead": "5eda9ac9c268424ea113e057c0dc3959f939c3e2"
+  "gitHead": "ce68ec51c80041a2076673a2a2e765fe44694486"
 }
