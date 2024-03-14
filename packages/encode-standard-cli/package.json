@@ -18,7 +18,12 @@
     "url": "git+https://github.com/coderhhan/standardized-projects.git"
   },
   "scripts": {
-    "test": "node ./__tests__/encode-standard-cli.test.js"
+    "dev": "npm run copyfiles && tsc -w",
+    "build": "rm -rf lib && npm run copyfiles && tsc",
+    "copyfiles": "copyfiles -a -u 1 \"src/config/**\" lib",
+    "test": "npm run build && jest",
+    "coverage": "nyc jest --silent --forceExit",
+    "prepublishOnly": "npm run test"
   },
   "bugs": {
     "url": "https://github.com/coderhhan/standardized-projects/issues"
