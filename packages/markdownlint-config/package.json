@@ -1,8 +1,7 @@
 {
   "name": "markdownlint-config-hhan",
   "version": "1.1.8",
-  "description": "文档规范",
-  "keywords": [],
+  "description": "mackdown文档规范",
   "author": "huanghan <906271803@qq.com>",
   "license": "ISC",
   "main": "lib/markdownlint-config.js",
@@ -16,5 +15,9 @@
   "publishConfig": {
     "registry": "https://registry.npmmirror.com/"
   },
+  "keywords": [
+    "hhan",
+    "mackdown"
+  ],
   "scripts": {}
 }

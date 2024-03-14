@@ -21,7 +21,7 @@
     "prepublishOnly": "npm run test"
   },
   "keywords": [
-    "encode",
+    "hhan",
     "eslint",
     "eslint-plugin"
   ],
