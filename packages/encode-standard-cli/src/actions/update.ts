@@ -2,12 +2,12 @@
  * @Author: coderhhan 906271803@qq.com
  * @Date: 2024-03-11 23:12:39
  * @LastEditors: coderhhan 906271803@qq.com
- * @LastEditTime: 2024-03-12 23:01:02
+ * @LastEditTime: 2024-03-19 23:32:31
  * @FilePath: \standardized-projects\packages\encode-standard-cli\src\actions\update.ts
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
-import org from 'ora'
-import { execSync } from 'child_process';
+import org from 'ora' //控制台loading的显示插件
+import { execSync } from 'child_process'; //内置，执行简单命令行并返回结果  //中同步执行 shell 命令的方法之一, 需要简单地执行命令并获取输出
 import log from '../utils/log';
 import npmType from '../utils/npm-type';
 import { PKG_NAME, PKG_VERSION } from '../utils/constants';

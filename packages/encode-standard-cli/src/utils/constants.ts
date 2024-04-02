@@ -2,7 +2,7 @@
  * @Author: coderhhan 906271803@qq.com
  * @Date: 2024-03-06 22:48:35
  * @LastEditors: coderhhan 906271803@qq.com
- * @LastEditTime: 2024-03-11 23:07:15
+ * @LastEditTime: 2024-03-23 23:04:50
  * @FilePath: \standardized-projects\packages\encode-standard-cli\src\utils\constanst.ts
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -77,6 +77,10 @@ export const PROJECT_TYPES: Array<{ name: string, value: string }> = [
     value: 'es5',
   }
 ]
+/**
+ * eslint 扫描文件扩展名
+ */
+export const ESLINT_FILE_EXT: string[] = ['.js', '.jsx', '.ts', '.tsx', '.vue'];
 
 
 /**
@@ -114,6 +118,11 @@ export const STYLELINT_IGNORE_PATTERN: string[] = [
 ];
 
 /**
+ * markdownLint 扫描文件扩展名
+ */
+export const MARKDOWN_LINT_FILE_EXT: string[] = ['.md'];
+
+/**
  * markdownLint 扫描忽略的文件或文件目录
  */
 export const MARKDOWN_LINT_IGNORE_PATTERN: string[] = [
@@ -124,3 +133,25 @@ export const MARKDOWN_LINT_IGNORE_PATTERN: string[] = [
   'es/',
   'lib/',
 ];
+
+
+/**
+ * Prettier 扫描文件扩展名
+ */
+export const PRETTIER_FILE_EXT = [
+  ...STYLELINT_FILE_EXT,
+  ...ESLINT_FILE_EXT,
+  ...MARKDOWN_LINT_FILE_EXT,
+];
+/**
+ * Prettier 扫描忽略的文件或文件目录
+ */
+export const PRETTIER_IGNORE_PATTERN: string[] = [
+  'node_modules/**/*',
+  'build/**/*',
+  'dist/**/*',
+  'lib/**/*',
+  'es/**/*',
+  'coverage/**/*',
+];
+
